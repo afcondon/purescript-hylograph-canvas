@@ -1,0 +1,19 @@
+workspace:
+  packageSet:
+    registry: 67.0.1
+
+package:
+  name: hylograph-canvas
+  description: Canvas rendering library for Hylograph visualizations
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: afcondon
+      githubRepo: purescript-hylograph-canvas
+  dependencies:
+    - arrays
+    - effect
+    - maybe
+    - nullable
+    - prelude
