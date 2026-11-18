@@ -1,10 +1,10 @@
 # purescript-hylograph-canvas
 
-Canvas rendering library for Hylograph visualizations.
+Canvas 2D drawing primitives for Hylograph visualizations.
 
 ## Overview
 
-Provides Canvas 2D rendering as an alternative to SVG for Hylograph visualizations. Useful for performance-critical scenarios with large numbers of elements.
+Draws circles and lines to a Canvas 2D context, with zoom and pan, for scenes with too many elements for SVG. It is a set of drawing calls, not a rendering backend for HATS: it does not take a HATS `Tree`, and no other Hylograph library depends on it.
 
 ## Installation
 
